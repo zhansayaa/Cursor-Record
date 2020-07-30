@@ -1,0 +1,23 @@
+Student DB
+Part 1. RECORD
+Question 1. Select a single row for the ZIPCODE table into the vr_zip record.
+Question 2. Modify the script created in the preceding exercise so that zip_rec
+(your record) is defined as a cursor-based record. And retrieve more than one row.
+Question 3. Modify the script created in the preceding exercise. Change the
+structure of the zip_rec record so that it contains the total number of students in a
+given city, state, and zip code. Do not include audit columns such as CREATED_BY
+and CREATED_DATE in the record structure. What kind of record will you use to this
+purpose?
+
+Part 2. CURSOR
+Question 1. Retrieve the student and the their grade regarding each courses.
+Question 2. Retrieve the the instructor of the courses in which more than 10
+students are enrolled.
+Question 3.CURSOR FOR LOOP. Write a PL/SQL block that reduces the cost of all
+courses by 5 percent for courses having an enrollment of eight students or more.
+Use a cursor FOR loop that updates the course table.
+Question 4. Write a PL/SQL block with two cursor for loops. The parent cursor will
+call the student_id, first_name, and last_name from the student table
+for students with a student_id less than 110 and output one line with this
+information. For each student, the child cursor will loop through all the courses
+that the student is enrolled in, outputting the course_no and the description. 
